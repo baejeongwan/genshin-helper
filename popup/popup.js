@@ -16,7 +16,7 @@ function loadLocale() {
     $("#redeem-btn").text(chrome.i18n.getMessage("popupRedeemCodeRedeemButton"))
     $("#copy-account-btn").text(chrome.i18n.getMessage("popupFetchAccountFromHoyolabBtn"))
     $("#auto-checkin").text(chrome.i18n.getMessage("popupCheckIn"))
-    $("#dev-sign-blockquote").text(chrome.i18n.getMessage("popupDevSignature"))
+    $("#dev-sign-blockquote").html(`${chrome.i18n.getMessage("popupDevSignature")} / <a href="${chrome.i18n.getMessage("projectUrl")}" target="_blank">${chrome.i18n.getMessage("popupProjectLink")}</a>`)
 }
 
 $("#redeem-btn").on("click", function() {
