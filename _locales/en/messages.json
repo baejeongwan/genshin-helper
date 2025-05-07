@@ -1,0 +1,124 @@
+{
+    "extName": {
+        "message": "Genshin Helper",
+        "description": "The name of the extension"
+    },
+    "extDesc": {
+        "message": "A Chrome extension that comes handy while playing Genshin Impact. This extension is not affiliated with HoYoverse.",
+        "description": "The description of the extension"
+    },
+    "popupResinState": {
+        "message": "Resin State",
+        "description": "Resin state header in the popup"
+    },
+    "popupResinNotLoggedIn": {
+        "message": "Not logged in to hoyolab.",
+        "description": "Not logged in to hoyolab error in the popup resin state."
+    },
+    "popupResinLoadError": {
+        "message": "Resin data load fail!",
+        "description": "Error loading resin data."
+    },
+    "popupRedeemCode": {
+        "message": "Redeem Code",
+        "description": "Redeem code header in the popup"
+    },
+    "popupRedeemCodeRedeemButton": {
+        "message": "Redeem",
+        "description": "Redeem code button in popup."
+    }, 
+    "popupRedeemCodeInputBoxTitle": {
+        "message": "Redeem Code",
+        "description": "Redeem code input box title in popup"
+    }, 
+    "popupRedeemCodeInputBoxPlaceholder": {
+        "message": "Enter code",
+        "description": "Redeem code input box placeholder in popup"
+    }, 
+    "popupHoyoNoLogin": {
+        "message": "You are not logged in to Hoyolab. Please login first.",
+        "description": "Popup copy account fail - no cookie."
+    },
+    "popupCopySuccessAlert": {
+        "message": "Hoyoverse account data copied. Your account data is only stored inside your browser.",
+        "description": "Popup copy account success."
+    },
+    "popupFetchAccountFromHoyolabBtn": {
+        "message": "Fetch account from hoyolab",
+        "description": "Fetch account from hoyolab btn."
+    },
+    "popupCheckIn": {
+        "message": "Check In",
+        "description": "Check In Menu header in popup."
+    },
+    "popupAutoCheckInOn": {
+        "message": "Auto Check In is enabled.",
+        "description": "Auto Check In enabled alert in popup"
+    },
+    "popupAutoCheckInOff": {
+        "message": "Auto Check In is disabled. Enable it so you don't miss out!",
+        "description": "Auto Check In disabled alert in popup"
+    },
+    "popupCheckInDone": {
+        "message": "Today's check in is complete.",
+        "description": "Today's check in done alert in popup."
+    },
+    "popupCheckInNotDone": {
+        "message": "Today's check in is not yet done.",
+        "description": "Today's check in not done alert in popup."
+    },
+    "popupCheckInLoadFail": {
+        "message": "Can't check whether today's check is finished: ",
+        "description": "Check in finish check fail in popup."
+    },
+    "popupDevSignature": {
+        "message": "Developed by Jeongwan Bae.",
+        "description": "Developer name in popup."
+    },
+    "popupProjectLink": {
+        "message": "Project link",
+        "description": "Link to the project"
+    },
+    "popupPrivacyLink": {
+        "message": "Privacy",
+        "description": "Link to privacy notice"
+    },
+    "notifCheckInStatusLoadFailTitle": {
+        "message": "Failed to load check in status.",
+        "description": "Title of check in load fail notification."
+    },
+    "notifCheckInStatusLoadFailMessage": {
+        "message": "Failed to load check in status. Not checked-in. Reason: ",
+        "description": "Content of check in load fail notification"
+    },
+    "notifCheckInStatusLoadFailMessage_NoCookie": {
+        "message": "Can't auto check in because hoyoverse account information is not saved.",
+        "description": "Content of check in load fail notification: No cookie."
+    },
+    "notifCheckInDoneTitle": {
+        "message": "Check in complete.",
+        "description": "Check in complete title."
+    },
+    "notifCheckInDoneMessage": {
+        "message": "Check in complete. Note: You should redeem reward in game separately.",
+        "description": "Check in complete content."
+    },
+    "notifCheckInNotLoginTitle": {
+        "message": "Hoyolab not logged in",
+        "description": "Auto check in fail due to hoyolab no logged in notification title."
+    },
+    "notifCheckInNotLoginMessage": {
+        "message": "You are not logged in to Hoyolab. Can't auto check in.",
+        "description": "Auto check in fail due to hoyolab no logged in notification content."
+    },
+    "redeemUrl": {
+        "message": "https://genshin.hoyoverse.com/en/gift?code=",
+        "description": "URL to redeem code page. Link to localized page if available for the language."
+    },
+    "projectUrl": {
+        "message": "https://github.com/baejeongwan/genshin-helper"
+    },
+    "privacyUrl": {
+        "message": ""
+    }
+}

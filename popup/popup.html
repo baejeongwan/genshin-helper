@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../res/materialize.min.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h4 id="title">Hoyoverse Game Helper</h4>
+        <!--<p>Account: XXX</p>
+        <button class="waves-effect waves-light btn" id="copy-account-btn">Fetch Account from Hoyolab</button>
+        <blockquote style="display: none;" id="account-copy-alert">Account Copy Fail Err Msg</blockquote>-->
+        <div>
+            <h5 id="resin-state">Resin State</h5>
+            <div id="resin-display-box">
+                <!--<blockquote>Account: Asia / 11111111 / UserID</blockquote>
+                <div style="display: flex; align-items: center;">
+                    <div class="progress" style="margin: 0;">
+                        <div class="determinate" style="width: 70%;"></div>
+                    </div>
+                    <p style="margin-left: 5px;" class="flow-text">142/200</p>
+                </div>-->
+            </div>
+        </div>
+        <div>
+            <h5 id="redeem-code">Redeem Code</h5>
+            <div class="input-field">
+                <input placeholder="Enter code" type="text" id="redeem-code-input" class="validate">
+                <label for="redeem-code-input" id="redeem-code-input-title">Redeem Code</label>
+            </div>
+            <button class="waves-effect waves-light btn" id="redeem-btn">Redeem</button>
+        </div>
+        <div>
+            <h5 id="auto-checkin">Auto Check-In</h5>
+            <p class="flow-text" id="auto-checkin-status">Auto Check-In is enabled! Today's check-in is completed.</p>
+        </div>
+        <blockquote id="dev-sign-blockquote">
+            Developed by Jeongwan Bae. / Project Link / Privacy notice
+        </blockquote>
+        <script src="../res/jquery-3.7.1.min.js"></script>
+        <script src="../res/materialize.min.js"></script>
+        <script src="popup.js"></script>
+    </body>
+</html>
